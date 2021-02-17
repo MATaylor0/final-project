@@ -1,0 +1,66 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #75D5FD;
+}
+
+h5 {
+  color: #75D5FD;
+}
+
+p {
+  color: #FFD300;
+}
+
+.nav-link {
+  color: #FFD300;
+}
+
+thead {
+  color: #FFD300;
+}
+
+tbody {
+  color: #75D5FD;
+}
+
+.nav-item {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-pills > li > a.active {
+  background-color:#75D5FD !important;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+  background-color: #1b2838;
+}
+
+#footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  bottom: 2.5%;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-bottom: 3%;
+}
+
+.input-group {
+  padding-top: 5%;
+}
