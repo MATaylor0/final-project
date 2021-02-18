@@ -39,7 +39,6 @@ for i in range(0, len(app_ids)):
         full_data[app_ids[i]] = response.json()
     except:
         missed.append(app_ids[i])
-        print(f'app id {appid} request failed')
 
 t1 = time.time()
 print(f'{len(full_data)}, {t1-t0}')
